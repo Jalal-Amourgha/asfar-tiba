@@ -13,7 +13,6 @@ const About = () => {
       "Depuis notre création, notre priorité a toujours été de faire de chaque Omra une expérience spirituelle mémorable. Grâce à une équipe expérimentée et dévouée, nous proposons des services complets allant de la réservation des billets à l'organisation de l'hébergement dans des hôtels proches des lieux saints, en passant par la gestion des transferts pour simplifier chaque étape du voyage.",
       "Chez Asfar Tiba, nous plaçons nos clients au cœur de nos préoccupations. C'est pourquoi nous nous efforçons constamment de proposer des solutions sur mesure et des services de qualité supérieure qui garantissent leur satisfaction totale.",
       "Nous sommes fiers de bâtir des relations solides et durables avec nos clients, qui nous font confiance pour leur offrir une expérience dépassant leurs attentes. En outre, nous restons toujours à l'affût des dernières tendances et innovations dans le domaine du voyage afin d'améliorer nos prestations et de proposer des offres adaptées à tous les budgets.",
-      "Notre vision pour l'avenir est de devenir le premier choix de ceux qui recherchent une Omra bien organisée et parfaitement adaptée à leurs attentes. Avec Asfar Tiba, partez en toute sérénité!",
     ],
     ar: [
       "أسفار طيبة هي وكالة سفر رائدة ومتخصصة في تنظيم رحلات العمرة، تأسست برؤية واضحة لتوفير تجربة سفر فريدة تلبي احتياجات المسافرين الباحثين عن رحلات مريحة وموثوقة. نحن نفخر بتقديم خدمات ذات جودة عالية بأسعار تنافسية، مع الالتزام بأعلى معايير المهنية والشفافية",
