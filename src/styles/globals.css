@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #eee;
+  --text-color: #222;
+  --primary: #040e40;
+}
+
+[data-theme="dark"] {
+  --background-color: #222;
+  --text-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Roboto", serif;
+
+  font-style: normal;
+}
+body {
+  direction: ltr;
+}
+body.rtl {
+  direction: rtl;
+  font-family: "Rubik", serif !important;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+select {
+  background: var(--background-color);
+  text-align: var(--text-color);
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 32px !important;
+  color: #e0c10d !important;
+}
+
+.slick-prev {
+  left: -34px !important;
+}
+
+.contact-box span {
+  color: var(--primary) !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-bottom: 5px !important;
+}
+
+.contact-box input,
+.contact-box textarea {
+  max-width: 500px;
+  padding: 12px 8px !important;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  background: var(--background-color);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.shadow-md {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1 !important;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2 !important;
+}
+
+.slick-center div {
+  padding: 0px !important;
+}
+
+.offer-overflow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.7s;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+.slick-center .offer-overflow {
+  transition: 0s;
+  display: none;
+}
