@@ -20,7 +20,7 @@ const Questions = () => {
     }
   };
   return (
-    <div className="max-w-[900px] mx-auto px-2 mt-100 flex flex-col gap-10">
+    <div className="max-w-[900px] mx-auto px-2 mt-100 flex flex-col gap-5">
       <SectionTitle title={translations[language].questionsTitle} />
       {questions.map((question) => (
         <div

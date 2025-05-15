@@ -19,7 +19,6 @@ import {
   sponsor7,
   sponsor8,
   sponsor9,
-  sponsor10,
   sponsor11,
   person1,
   person2,
@@ -176,7 +175,7 @@ export const sponsors = [
   { id: 6, img: sponsor7 },
   { id: 7, img: sponsor8 },
   { id: 8, img: sponsor9 },
-  { id: 10, img: sponsor10 },
+  // { id: 10, img: sponsor10 },
   { id: 11, img: sponsor11 },
 ];
 
@@ -314,12 +313,12 @@ export const achievements = [
     icon: achievement1,
     ar: {
       title: "عدد الزملاء الذين تم تقديم الخدمة لهم",
-      label: "قمنا بتنظيم خطط سفر ناجحة لأكثر من 1000 عميل راضٍ منذ تأسيسنا.",
+      label: "قمنا بتنظيم خطط سفر ناجحة لأكثر من 5000 عميل راضٍ منذ تأسيسنا.",
     },
     fr: {
       title: "Nombre de clients servis",
       label:
-        "Nous avons organisé avec succès des voyages pour plus de 1000 clients satisfaits depuis notre création.",
+        "Nous avons organisé avec succès des voyages pour plus de 5000 clients satisfaits depuis notre création.",
     },
   },
   {
@@ -327,12 +326,12 @@ export const achievements = [
     ar: {
       title: "الموافقات الناجحة على التأشيرة",
       label:
-        "ساعدنا في تأمين 1000 موافقة على التأشيرة لعملائنا، وضمان تجارب سفر خالية من المتاعب.",
+        "ساعدنا في تأمين 5000 موافقة على التأشيرة لعملائنا، وضمان تجارب سفر خالية من المتاعب.",
     },
     fr: {
       title: "Approbations de visa réussies",
       label:
-        "Nous avons aidé à obtenir 1 000 approbations de visa pour nos clients, garantissant ainsi des expériences de voyage sans tracas.",
+        "Nous avons aidé à obtenir 5000 approbations de visa pour nos clients, garantissant ainsi des expériences de voyage sans tracas.",
     },
   },
   {

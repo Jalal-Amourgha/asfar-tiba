@@ -22,7 +22,7 @@ const Footer = () => {
   const year = new Date();
 
   return (
-    <footer className="bg-primary py-20">
+    <footer className="bg-primary py-20 mt-100">
       <div className="container grid gap-3 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
         <div>
           <div className="flex items-center gap-2">

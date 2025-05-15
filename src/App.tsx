@@ -11,7 +11,6 @@ import {
   Footer,
   Reviews,
   Services,
-  Subscription,
   Achievements,
 } from "./components";
 function App() {
@@ -29,7 +28,7 @@ function App() {
       <Contact />
       <Sponsors />
       <BtnUp />
-      <Subscription />
+      {/* <Subscription /> */}
       <Footer />
     </>
   );

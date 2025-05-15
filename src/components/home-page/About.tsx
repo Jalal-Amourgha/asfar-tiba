@@ -30,9 +30,6 @@ const About = () => {
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex items-start justify-center order-2 md:order-1">
           <div className="flex flex-col gap-5 text-lg font-normal">
-            <h1 className="text-2xl text-primary font-semibold">
-              {language === "fr" ? "Notre histoire" : "قصتنا"}
-            </h1>
             {transaction[language].map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}

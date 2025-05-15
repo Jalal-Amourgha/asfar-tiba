@@ -25,7 +25,7 @@ export const translations: TranslationsProps = {
     destinationTitle: "الوجهة الموصى بها",
     destinationTitle2: "الوجهات الداخلية",
     omraOffer: "عروض العمرة",
-    reviewTitle: "الردود لأفعال",
+    reviewTitle: "أراء الزبناء",
     servicesTitle: "خدمات",
     socials: "منصات التواصل الاجتماعي",
     contactTitle: "اتصل بنا",
