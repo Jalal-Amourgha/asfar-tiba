@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  distDir: "dist", // Add this line
   images: {
     remotePatterns: [
       {
