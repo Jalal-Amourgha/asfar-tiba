@@ -10,7 +10,7 @@ import PackageCard from "../cards/PackageCard";
 import { useTranslation } from "react-i18next";
 
 const Packages = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const settings = {
     className: "center",
     centerMode: true,
@@ -39,10 +39,7 @@ const Packages = () => {
 
   return (
     <section id="#packages" className="container mt-26">
-      <Title
-        title="Choose your Package"
-        desc="Embark on a Spirtual Journey: Your Trusted Hajj Partner, Comprehensive Hajj Packages Tailored to Your Needs. Premium accoummondation, individual transportation"
-      />
+      <Title title={t("packages1")} desc={t("packages2")} />
 
       <div className="slider-container py-10 relative">
         <Slider {...settings}>

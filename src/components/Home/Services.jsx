@@ -80,7 +80,7 @@ const Services = () => {
             <div className="h-20 w-20 mx-auto bg-[#C1FFFA]   flex justify-center items-center rounded-lg text-4xl text-primary cursor-pointer">
               {service.icon}
             </div>
-            <h1 className="text-xl text-primary font-semibold mb-3">
+            <h1 className="text-xl text-primary font-semibold my-3">
               {service.title[i18n.language]}
             </h1>
             <p className="text-gray-4 font-norma">

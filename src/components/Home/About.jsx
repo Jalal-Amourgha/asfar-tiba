@@ -7,6 +7,7 @@ import { FaPlaneDeparture } from "react-icons/fa";
 import { FaTicket } from "react-icons/fa6";
 import { FaHotel } from "react-icons/fa6";
 import { FaPassport } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const items = [
   {
@@ -56,9 +57,9 @@ const About = () => {
               </div>
             ))}
           </div>
-          <a href="#contact" className="btn btn-primary">
-            {t("contactTitle")}
-          </a>
+          <Link to="contact" className="btn btn-primary">
+            {t("contact1")}
+          </Link>
         </div>
       </div>
     </section>

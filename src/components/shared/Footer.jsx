@@ -17,7 +17,11 @@ const Footer = () => {
           <div className="bg-white rounded-2xl max-w-full lg:max-w-[80%] mb-4">
             <Image src={logo} alt="asfar tiba" className="max-w-[200px]" />
           </div>
-          <p>Comfortable and Quiet Worship, Our Service No. 1 in Indonesia</p>
+          <p>
+            {i18n.language == "fr"
+              ? "Asfar tiba, une entreprise spécialisée dans les voyages Omra"
+              : "أسفار طيبة شركة متخصصة في رحلات العمرة"}
+          </p>
         </div>
         {footerLinks.map((link, index) => (
           <div key={index}>

@@ -92,9 +92,14 @@ header {
   color: var(--primary) !important;
 }
 
-.slick-prev {
+/* .slick-prev {
   left: -34px !important;
 }
+
+[dir="rtl"] .slick-next {
+  /* left: 0px; */
+/* right: -25px !important; */
+/* }  */
 
 form label {
   font-size: 17px;

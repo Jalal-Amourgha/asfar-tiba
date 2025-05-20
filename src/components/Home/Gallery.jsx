@@ -1,17 +1,16 @@
+"use client";
+
 import { galleryItems, galleryItemsPhone } from "@/constants";
 import Image from "next/image";
 import React from "react";
 import Title from "../shared/Title";
+import { useTranslation } from "react-i18next";
 
 const Gallery = () => {
+  const { t } = useTranslation();
   return (
     <section id="#gallery" className="container my-24 z-10">
-      <Title
-        title="Gallery Footage"
-        desc="  We provide comfort for our customers, with the various
-        <br />
-        facilities we provide that we provide"
-      />
+      <Title title={t("gallery1")} desc={t("gallery2")} />
 
       <div className="hidden md:grid grid-cols-6 gap-3 h-[1000px] mt-10">
         {galleryItems.map((item, index) => (
@@ -21,7 +20,7 @@ const Gallery = () => {
           >
             <Image
               src={item.img}
-              className="w-full h-full objet-fill object-cover bg-center"
+              className="w-full h-full objet-fill object-cover bg-center hover:scale-150 hover:rotate-6 duration-500"
               fill
               alt="asfar tiba"
             />
@@ -37,7 +36,7 @@ const Gallery = () => {
           >
             <Image
               src={item.img}
-              className="w-full h-full objet-fill object-cover bg-center"
+              className="w-full h-full objet-fill object-cover hover:scale-150 hover:rotate-6 duration-500 bg-center"
               fill
               alt="asfar tiba"
             />

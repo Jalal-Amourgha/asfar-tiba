@@ -6,6 +6,12 @@ import {
   sponsor5,
   sponsor6,
   sponsor7,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  icon6,
 } from "@/assets";
 
 export const navLinks = [
@@ -390,7 +396,7 @@ export const questions = [
 export const reviews = [
   {
     id: 0,
-    // icon: person1,
+    icon: icon1,
     review: {
       ar: "خدمة رائعة وسرعة في الاستجابة. عروض العمرة من أسفار طيبة كانت مذهلة من حيث السعر والجودة. أوصي بها بشدة",
       fr: "Service impeccable et personnel très professionnel. Les offres Omra d'Asfar Tiba sont vraiment avantageuses. Je recommande vivement!",
@@ -400,7 +406,7 @@ export const reviews = [
   },
   {
     id: 1,
-    // icon: person3,
+    icon: icon2,
     review: {
       ar: "تجربتي مع أسفار طيبة كانت ممتازة. فريق عمل متعاون ومنظم بشكل احترافي. رحلة العمرة كانت مريحة جدًا",
       fr: "Expérience inoubliable avec Asfar Tiba. Organisation parfaite et hôtels proches des lieux saints. Merci pour tout!",
@@ -410,7 +416,7 @@ export const reviews = [
   },
   {
     id: 2,
-    // icon: person2,
+    icon: icon3,
     review: {
       ar: "أفضل وكالة عمرة تعاملت معها. فريق عمل ودود ومتفاني، والفنادق كانت قريبة ومريحة للغاية.   ",
       fr: "C'était un plaisir de voyager avec Asfar Tiba. Organisation impeccable et excellent rapport qualité-prix.",
@@ -420,7 +426,7 @@ export const reviews = [
   },
   {
     id: 3,
-    // icon: person4,
+    icon: icon4,
     review: {
       ar: "شركة ممتازة! حجوزات العمرة كانت سهلة، والفنادق كانت قريبة من الحرم. شكرًا أسفار طيبة",
       fr: "Excellente agence! Tout était bien organisé, du départ jusqu'au retour. Merci à toute l'équipe d'Asfar Tiba.",
@@ -430,7 +436,7 @@ export const reviews = [
   },
   {
     id: 4,
-    // icon: person5,
+    icon: icon5,
     review: {
       ar: "أسفار طيبة هي الخيار الأفضل للعمرة. مرونة في التعامل، وخدمة ممتازة من البداية إلى النهاية",
       fr: "Asfar Tiba est la meilleure agence pour réserver une Omra. Un service de qualité et des offres adaptées à tous les budgets.",
@@ -440,7 +446,7 @@ export const reviews = [
   },
   {
     id: 5,
-    // icon: person6,
+    icon: icon6,
     review: {
       ar: "كانت تجربة رائعة مع أسفار طيبة. رحلة منظمة بشكل ممتاز وخدمات تفوق التوقعات. شكرًا جزيلًا لكم!",
       fr: "Une agence exceptionnelle! Le voyage était bien organisé et les hôtels étaient très confortables. Merci Asfar Tiba.",

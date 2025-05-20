@@ -1,4 +1,3 @@
-import { people1 } from "@/assets";
 import Image from "next/image";
 import React from "react";
 
@@ -7,9 +6,9 @@ const ReviewCard = ({ review, language }) => {
     <div className="bg-primary text-white py-10 px-5 rounded-2xl h-[250px] mx-2 my-10">
       <div className="flex items-center justify-center -mt-20 w-full ">
         <Image
-          src={people1}
+          src={review.icon}
           alt="asfar tiba"
-          className="max-w-[90px] object-fill bg-center bg-cover rounded-full border-4 border-white overflow-hidden"
+          className="max-w-[90px] object-fill bg-center bg-cover rounded-full border-4 border-white bg-white overflow-hidden"
         />
       </div>
       <p
