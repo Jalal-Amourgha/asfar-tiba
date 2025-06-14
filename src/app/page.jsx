@@ -50,7 +50,7 @@ export default function Home() {
       <Element name="packages">
         <Packages />
       </Element>
-      <OmraOffer />
+      <OmraOffers />
       <Questions />
       <Gallery />
       <Reviews />
