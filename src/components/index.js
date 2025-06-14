@@ -11,6 +11,7 @@ import Destinations from "./Home/Destinations";
 import Reviews from "./Home/Reviews";
 import Questions from "./Home/Questions";
 import Contact from "./Home/Contact";
+import OmraOffers from "./Home/OmraOffers";
 
 export {
   Navbar,
@@ -22,6 +23,7 @@ export {
   Gallery,
   Footer,
   Packages,
+  OmraOffers,
   Destinations,
   Questions,
   Reviews,

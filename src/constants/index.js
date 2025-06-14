@@ -12,6 +12,8 @@ import {
   icon4,
   icon5,
   icon6,
+  offer1,
+  offer2,
 } from "@/assets";
 
 export const navLinks = [
@@ -391,6 +393,11 @@ export const questions = [
         "Nos forfaits Omra incluent l'hébergement dans des hôtels confortables, le transport depuis et vers l'aéroport, les transferts à l'intérieur de La Mecque et Médine, ainsi qu'une assistance 24h/24.",
     },
   },
+];
+
+export const omraOffers = [
+  { id: 0, img: offer1 },
+  { id: 1, img: offer2 },
 ];
 
 export const reviews = [

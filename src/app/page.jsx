@@ -14,8 +14,9 @@ import {
   Sponsors,
   Navbar,
   Destinations,
+  OmraOffers,
 } from "@/components";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
       <Element name="packages">
         <Packages />
       </Element>
+      <OmraOffer />
       <Questions />
       <Gallery />
       <Reviews />

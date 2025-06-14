@@ -43,11 +43,11 @@ const Navbar = ({ scrollToSection }) => {
             i18n.changeLanguage(e.target.value);
           }}
         >
-          <option value="fr" className="text-sm font-semibold">
-            français
-          </option>
           <option value="ar" className="text-sm font-semibold">
             العربية
+          </option>
+          <option value="fr" className="text-sm font-semibold">
+            français
           </option>
         </select>
         <div className="block md:hidden text-2xl">

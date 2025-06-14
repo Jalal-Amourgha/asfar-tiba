@@ -20,6 +20,9 @@ import icon5 from "./icons/icon5.png";
 import icon6 from "./icons/icon6.png";
 import icon7 from "./icons/icon7.png";
 
+import offer1 from "./images/offer1.jpeg";
+import offer2 from "./images/offer2.jpeg";
+
 export {
   logo,
   sponsor1,
@@ -38,4 +41,6 @@ export {
   icon5,
   icon6,
   icon7,
+  offer1,
+  offer2,
 };

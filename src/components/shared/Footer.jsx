@@ -14,8 +14,8 @@ const Footer = () => {
     <footer className="bg-primary text-white py-24 mt-24">
       <div className="container grid grid-cols-2 lg:grid-cols-6 gap-5">
         <div className="col-span-2">
-          <div className="bg-white rounded-2xl max-w-full lg:max-w-[80%] mb-4">
-            <Image src={logo} alt="asfar tiba" className="max-w-[200px]" />
+          <div className="bg-white rounded-2xl max-w-[160px] mb-4">
+            <Image src={logo} alt="asfar tiba" className="max-w-[150px]" />
           </div>
           <p>
             {i18n.language == "fr"
